@@ -1,0 +1,35 @@
+# 🧠 GITIGNORE: tells Git what NOT to upload to GitHub
+
+# Virtual environments (Python)
+.venv/
+venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Log files and temp data
+logs/
+src/logs/
+*.log
+
+# Local configuration files (real credentials)
+config/*.json
+# But allow "example" config files for sharing
+!config/*example*.json
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.tmp
