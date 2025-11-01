@@ -3,7 +3,7 @@
 ### 👩‍💻 Course
 IT-566 — Fall 2025 Semester Project
 
-### 🧠 Description
+### Description
 A layered Python application that simulates a secure Employee Training management system.  
 It includes:
 - SQL database scripts (DDL, DML)
